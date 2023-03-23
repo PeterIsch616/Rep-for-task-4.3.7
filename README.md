@@ -1,4 +1,4 @@
 # Rep-for-task-4.3.7
 trial repository
 
-font-family: Schwabacher;
+Trial repository to complete task 4.3.7
