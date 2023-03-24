@@ -1,6 +1,6 @@
 @font-face {
-    font-family: Schwabacher;
-    src: url("fonts/Schwabacher/Schwabacher font.ttf");
+    font-family: Auto;
+    src: url("");
 }
 
 body {
@@ -10,7 +10,7 @@ body {
 .dropdown {
     margin: 62px 84px 0px 77px;
     width: 500px;
-    font-family: Schwabacher;
+    font-family: Auto;
     font-style: normal;
     font-weight: normal;
     color: #000;
