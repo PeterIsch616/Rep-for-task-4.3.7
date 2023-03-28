@@ -38,7 +38,7 @@ function FindOnPage(name, status) {
 				result_arr[i] = result[i].replace(eval(search), '<span style="background-color:yellow;">'+input+'</span>'); //находим нужные элементы, задаем стиль и сохраняем в новый массив
 			}
 			for(let i=0; i<result.length;i++) {
-				pr=pr.replace(result[i],result_arr[i])  //заменяем в переменной с html текст на новый из новогом ассива
+				pr=pr.replace(result[i],result_arr[i])  //заменяем в переменной с html текст на новый из новогом массива
 			}
 			document.body.innerHTML = pr;  //заменяем html код
 		}
