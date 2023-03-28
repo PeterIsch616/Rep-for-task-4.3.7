@@ -40,10 +40,10 @@ function FindOnPage(name, status) {
 			for(let i=0; i<result.length;i++) {
 				pr=pr.replace(result[i],result_arr[i])  //заменяем в переменной с html текст на новый из новогом массива
 			}
-			document.body.innerHTML = pr;  //заменяем html код
+			document.body.innerHTML = pr;  //замена html кода
 		}
 	}
 	function FindOnPageBack() { document.body.innerHTML = locale_HTML; }
-	if(status) { FindOnPageBack(); FindOnPageGo(); } //чистим прошлое и Выделяем найденное
-	if(!status) { FindOnPageBack(); } //Снимаем выделение
+	if(status) { FindOnPageBack(); FindOnPageGo(); } //чистим прошлое и выделяем найденное
+	if(!status) { FindOnPageBack(); } //снимаем выделение
 }
