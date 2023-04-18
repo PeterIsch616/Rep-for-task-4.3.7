@@ -1,5 +1,3 @@
-# Rep-for-task-4.3.7
-The background color is `#ffffff` for light mode and `#000000` for dark mode.
+# Task-4.4.9
 
-## Trial repository to complete task 4.3.7
-Trial page, never made a site page before.
+## Trial repository to complete task 4.4.9
